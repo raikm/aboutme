@@ -1,0 +1,69 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.8em;
+  color: #161616;
+  background-color: transparent;
+  letter-spacing: 0.03em;
+  margin: 5% 30%;
+}
+
+h1 {
+  line-height: 4vh;
+}
+
+#intro{
+  text-align: justify;
+}
+
+h4{
+  font-weight: 350;
+
+}
+
+.title{
+  color: #787878;
+  font-size: 4vh;
+}
+.subtitle{
+  color: #49657b;
+}
+
+a {
+  text-decoration: none;
+}
+
+.project-desc{
+  color: black;
+  display: inline-block;
+}
+
+.project-box {
+    margin: 1vh 0vh;
+
+  }
+
+.contact-icon{
+  margin-right: 1.5vh;
+}
+
+
+
+@media only screen and (max-device-width : 1200px) {
+  body{
+    margin: 5% 5%;
+  }
+  svg {
+    width:6%;
+    height: 3%;
+  }
+  .project-title {
+    font-weight: bold;
+  }
+
+  .project-desc{
+    display:block;
+  }
+
+
+}
