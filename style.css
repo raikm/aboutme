@@ -1,75 +1,60 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.8em;
-  line-height: 1.8em;
-  color: #161616;
-  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 2vh;
+  line-height: 2.8vh;
+  color: #457b9d;
+  background-color: #faf9f9;
   letter-spacing: 0.03em;
-  margin: 5% 15%;
+  margin: 5% 20%;
 }
 
 h1 {
-  line-height: 4vh;
+  line-height: 3vh;
+  color: #1d3557;
 }
 
-#intro{
+#intro {
   text-align: justify;
 }
 
-h4{
-  font-weight: 350;
-
+.title {
+  color: #1d3557;
+  font-size: 3vh;
 }
-
-.title{
-  color: #787878;
-  font-size: 4vh;
-}
-.subtitle{
+.subtitle {
   color: #49657b;
 }
 
 a {
   text-decoration: none;
 }
-
-.project-desc{
-  color: black;
-  display: inline-block;
+a:visited {
+  text-decoration: none;
+  color: #457b9d;
 }
 
-.project-box {
-    margin: 1vh 0vh;
+.project-box-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 5px;
+}
 
-  }
-
-.contact-icon{
+.contact-icon {
   margin-right: 1.5vh;
 }
 
-
 .footer {
-    margin-top: 8%;
-    text-align: center;
-
+  margin-top: 8%;
+  /* text-align: center; */
 }
 
-
-@media only screen and (max-device-width : 1200px) {
-  body{
+@media only screen and (max-device-width: 1000px) {
+  body {
     margin: 5% 5%;
+    font-size: 1vh;
   }
   svg {
-    width:6%;
+    width: 6%;
     height: 3%;
   }
-  .project-title {
-    font-weight: bold;
-  }
-
-  .project-desc{
-    display:block;
-  }
-
-
 }
