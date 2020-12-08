@@ -1,16 +1,20 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 2vh;
+  font-size: 1.5vh;
   line-height: 2.8vh;
   color: #457b9d;
   background-color: #faf9f9;
   letter-spacing: 0.03em;
+
+}
+
+.text-content{
   margin: 5% 20%;
 }
 
 h1 {
   line-height: 3vh;
-  color: #1d3557;
+  color: #023047;
 }
 
 #intro {
@@ -18,11 +22,11 @@ h1 {
 }
 
 .title {
-  color: #1d3557;
+  color: #023047;
   font-size: 3vh;
 }
 .subtitle {
-  color: #49657b;
+  color: #023047;
 }
 
 a {
@@ -44,12 +48,12 @@ a:visited {
 }
 
 .footer {
-  margin-top: 8%;
-  /* text-align: center; */
+  /* margin: 5% 20%; */
+  text-align: center;
 }
 
 @media only screen and (max-device-width: 1000px) {
-  body {
+  .text-content {
     margin: 5% 5%;
     font-size: 1vh;
   }
@@ -57,4 +61,19 @@ a:visited {
     width: 6%;
     height: 3%;
   }
+}
+
+#headerline-1, #headerline-2{
+
+  width: 100%;
+}
+
+#headerline-1 {
+  background-color: #ffba08;
+  height: 1.5vh;
+}
+
+#headerline-2 {
+  background-color: #f48c06;
+  height: 2.5vh;
 }
